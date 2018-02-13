@@ -28,7 +28,7 @@
 ## 1.2 对称加密阶段
 后来技术发展了，我觉得加密算法保密不靠谱，经常有人把我们的加密方法泄露出去了，不得不经常改，后来有大臣提出意见：要不搞个像家门钥匙一样的东西，有个钥匙就行了，我才不想管这个锁是怎么运行的呢！！
 也就是说，就算加密方法你知道，但是没有密钥，照样你解不了！用下面的图示更直白：
-图片: https://images-cdn.shimo.im/XjIM6wXZmHEeiZk1/对称加密.jpg!thumbnail
+![normal](./img/normalency.jpg)
 在这个加密体系里面，因为加密与解密都用的是同一个密钥，所以一般术语上说对称加密算法，对称加密技术的安全性取决于两件事情：
 加密算法本身的安全程度
 密钥的安全性问题
@@ -41,8 +41,8 @@
 ## 1.3 非对称加密阶段
 对称加密	算法	在加密和解密时使用的是同一个秘钥；而	非对称加密算法	需要一对	密钥	来进行加密和解密，这一对秘钥由一个	公开密钥	（public key，简称公钥）和一个私有密钥（private key，简称私钥）组成。
 一图胜千言：
-图片: https://images-cdn.shimo.im/PQcAO61s1FMPRc7b/非对称加密.jpg!thumbnail
-假定密钥对由	publickey 和 privatekey 组成，它有下面的性质：
+![normal](./img/modornency.jpg)
+假定密钥对由 publickey 和 privatekey 组成，它有下面的性质：
   * publickey由privatekey组成，但是privatekey不能经过publickey反向推导出来。
   * 信息经过publickey加密后，只能由privatekey解密
   * 信息经过privatekey加密后，只能由publickey解密
@@ -71,7 +71,9 @@
 
 
 那么这个的用途呢？在信息加密领域，主要用来检测发送前后数据有没有被修改，假定如下面的图示：
-图片: https://images-cdn.shimo.im/zKI5sczLGZYQNx5I/图片.png!thumbnail发送方A：发送的数据为x，摘要算法后的结果为y，摘要长度126位，把摘要数据附在原始数据x的后面一起发送给B
+![normal](./img/hash.jpg)
+
+发送方A：发送的数据为x，摘要算法后的结果为y，摘要长度126位，把摘要数据附在原始数据x的后面一起发送给B
 接收方B：接收到数据后，取出数据的最后126位当作数字指纹y，对去除后面126位数据得到的x用相同的摘要算法处理得到y1，如果y1 != y，则B认为数据在传递过程中被修改了，则数据不可靠，只有在y1 == y的时候，才认为数据是可靠的。
 
 # 3. 数字签名
