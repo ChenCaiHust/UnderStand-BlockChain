@@ -4,8 +4,8 @@
 ## 目录
   * [货币](./concept-of-current.md)
   * 比特币相关背景技术
-    * [密码学技术：哈希算法，非对称加密算法及数字签名](./brief-secret-history.md)
-    * 分布式系统
+    * [密码学技术：哈希算法，非对称加密算法及数字签名](./brief-secret-history.md)
+    * 分布式系统
    * 比特币
      * 起源
      * 技术组合
