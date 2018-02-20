@@ -9,7 +9,7 @@
   * [比特币核心概念及过程](bitcoin.md)
   * 区块链
     * [Bitcoin到区块链](bitcoin-to-blockchain.md)
-    * [公有链，私有链，联盟链](blockchain-database.md)
+    * [公有链，私有链，联盟链](classfy-blockchain.md)
     * [区块链数据库 VS 传统数据库](blockchain-database.md)
   * 区块链2.0
    * 智能合约
