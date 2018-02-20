@@ -6,9 +6,9 @@
   * 比特币相关背景技术
     * [密码学技术：哈希算法，非对称加密算法及数字签名](brief-secret-history.md)
     * [Bitcoin共识算法](Consensus-algorithm.md)
-  * 比特币
-    * [比特币核心概念及过程](bitcoin.md)
+  * [比特币核心概念及过程](bitcoin.md)
   * 区块链
+    * [Bitcoin到区块链](bitcoin-to-blockchain.md)
     * [公有链，私有链，联盟链](blockchain-database.md)
     * [区块链数据库 VS 传统数据库](blockchain-database.md)
   * 区块链2.0
