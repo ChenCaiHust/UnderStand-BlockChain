@@ -11,6 +11,7 @@
     * [Bitcoin到区块链](bitcoin-to-blockchain.md)
     * [公有链，私有链，联盟链](classfy-blockchain.md)
     * [区块链数据库 VS 传统数据库](blockchain-database.md)
+    * [分叉-软分叉-硬分叉](hard-soft-fork.MD)
   * 区块链2.0
    * 智能合约
   * 区块链3.0
