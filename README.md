@@ -13,8 +13,8 @@
     * [区块链数据库 VS 传统数据库](blockchain-database.md)
     * [分叉-软分叉-硬分叉](hard-soft-fork.MD)
     * [区块链系统常用共识算法](commod-consious-algorith.md)
-  * 区块链2.0
-   * 智能合约
+  * [以太坊](ether/ethereum.md)
+    * 以太坊账户
   * 区块链3.0
     * 超级账本技术
   * Token经济说法的理解与疑惑
