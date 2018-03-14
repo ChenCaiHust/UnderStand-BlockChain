@@ -17,6 +17,5 @@
     * 以太坊账户
   * 区块链3.0
     * 超级账本技术
-  * Token经济说法的理解与疑惑
-  * 现在区块链在技术在什么阶段
-  * 设计一个区块链要考虑的问题
+  * Token经济体
+    * [token是通证，而非代币](https://github.com/ChenCaiHust/UnderStand-BlockChain/blob/master/token/token-brief.md)
